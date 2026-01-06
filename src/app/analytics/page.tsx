@@ -50,7 +50,7 @@ export default function AnalyticsPage() {
           </div>
 
           <div className={`card`}>
-            <h3 className="outfit">Network Health</h3>
+            <h3 className="outfit">Web3 dashboard Health</h3>
             <div style={{ marginTop: 24 }} className={styles.list}>
               <div className={styles.metricItem}>
                 <div className={styles.metricLabel}>Total Value Locked</div>

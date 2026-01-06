@@ -10,7 +10,7 @@ import styles from './Header.module.css';
 const navItems = [
   { label: 'Trade', href: '/trade', hasDropdown: true },
   { label: 'Portfolio', href: '/portfolio' },
-  { label: 'Wallet', href: '/' },
+  { label: 'Wallet', href: '/dashboard' },
   { label: 'Affiliate', href: '/affiliate' },
   { label: 'More', href: '/more', hasDropdown: true },
 ];
@@ -32,7 +32,7 @@ export function Header({ onMenuClick }: { onMenuClick?: () => void }) {
           <Menu size={24} />
         </motion.button>
 
-        <Link href="/" className={styles.logo}>
+        <Link href="/dashboard" className={styles.logo}>
           <Hexagon size={24} fill="var(--primary)" />
           <span className="outfit">Web3 dashboard</span>
         </Link>

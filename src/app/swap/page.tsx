@@ -79,7 +79,7 @@ export default function SwapPage() {
               <span style={{ color: 'var(--success)' }}>&lt; 0.01%</span>
             </div>
             <div className={styles.detailRow}>
-              <span>Network Fee</span>
+              <span>Web3 dashboard Fee</span>
               <span style={{ color: 'var(--foreground)' }}>~$4.20</span>
             </div>
           </div>

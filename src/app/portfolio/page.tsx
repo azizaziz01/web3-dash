@@ -32,7 +32,7 @@ const stats = [
   { label: 'Total Net Worth', value: '$106,712.79', change: '+$8,245.12 (8.4%)', trend: 'up' },
   { label: '24h Profit/Loss', value: '+$2,145.20', change: 'Across all assets', trend: 'up', color: 'var(--success)' },
   { label: 'Best Performer', value: 'Solana', change: '+12.4% today', trend: 'up' },
-  { label: 'Active Chains', value: '5 Networks', change: 'ETH, BSC, POL, ARB, OP', trend: 'neutral' },
+  { label: 'Active Chains', value: '5 Web3 dashboards', change: 'ETH, BSC, POL, ARB, OP', trend: 'neutral' },
 ];
 
 export default function PortfolioPage() {

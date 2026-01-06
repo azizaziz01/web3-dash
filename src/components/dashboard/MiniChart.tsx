@@ -6,7 +6,7 @@ import createPlotlyComponent from 'react-plotly.js/factory';
 
 const Plot = createPlotlyComponent(Plotly);
 
-interface MiniChartProps {
+export interface MiniChartProps {
   color: string;
   data: number[];
 }

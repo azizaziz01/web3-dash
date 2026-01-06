@@ -6,7 +6,7 @@ import createPlotlyComponent from 'react-plotly.js/factory';
 
 const Plot = createPlotlyComponent(Plotly);
 
-interface AllocationChartProps {
+export interface AllocationChartProps {
   data: {
     labels: string[];
     values: number[];

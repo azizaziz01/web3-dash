@@ -20,7 +20,7 @@ import styles from './Sidebar.module.css';
 const navItems = [
   { icon: LineChart, label: 'Trade', href: '/trade' },
   { icon: Wallet, label: 'Portfolio', href: '/portfolio' },
-  { icon: LayoutDashboard, label: 'Wallet', href: '/' },
+  { icon: LayoutDashboard, label: 'Wallet', href: '/dashboard' },
   { icon: Users, label: 'Affiliate', href: '/affiliate' },
   { icon: MoreHorizontal, label: 'More', href: '/more' },
 ];
